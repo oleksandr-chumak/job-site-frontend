@@ -40,6 +40,7 @@ export default class MyDocument extends Document {
                     {/*    type="font/ttf"*/}
                     {/*    crossOrigin="anonymous"*/}
                     {/*/>*/}
+                    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet"/>
                 </Head>
                 <body>
                 <Main />
