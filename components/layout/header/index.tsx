@@ -19,7 +19,7 @@ export const Header = () => {
                         </RouteList>
                         <Auth>
                             <Route href={'/login'}>Увійти</Route>
-                            <SignUpBtn href={'/signup'}>Зареєструватися</SignUpBtn>
+                            <SignUpBtn href={'/register'}>Зареєструватися</SignUpBtn>
                         </Auth>
                     </RouteWrapper>
                     <BurgerMenuWrapper>

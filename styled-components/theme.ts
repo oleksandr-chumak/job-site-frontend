@@ -4,6 +4,7 @@ export const theme = {
         mainColor:"rgb(107, 42, 217)",
         mainFontColor:"rgb(140, 145, 167)",
         secondFontColor:"rgb(76, 130, 212)",
+        thirdFontColor:"rgb(61, 61, 61)",
         firstAdditionalColor:"rgb(225, 238, 252)",
         secondAdditionalColor:"rgb(238, 233, 252)",
         shadowColor: "rgba(226,207,207,0.75)"
@@ -17,3 +18,5 @@ export const theme = {
     }
 
 }
+type ThemeType = typeof theme
+export type Props = {theme:ThemeType}
