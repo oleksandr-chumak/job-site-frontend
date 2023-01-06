@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
   }
+  ul{
+    list-style: none;
+  }
 
   html,
   body {
@@ -25,9 +28,6 @@ const GlobalStyle = createGlobalStyle`
   a {
     color: inherit;
     text-decoration: none;
-  }
-
-  @media (prefers-color-scheme: dark) {
   }
     
 `

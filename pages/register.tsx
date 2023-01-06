@@ -1,10 +1,11 @@
 import React from 'react';
+import {FormLayout, RegisterForm,} from "@components";
 
 const Register = () => {
     return (
-        <div>
-            register
-        </div>
+        <FormLayout href={"/login"}  redirectionText={"Вже зарегестровані?"} linkText={"Увійдіть"} header={"Реєстрація"}>
+            <RegisterForm/>
+        </FormLayout>
     );
 };
 

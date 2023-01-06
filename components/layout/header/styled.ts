@@ -65,6 +65,7 @@ export const BurgerMenu = styled(MenuIcon)`
 `
 export const RouteWrapper = styled.div`
   display: flex;
+  z-index: 99999;
   align-items: center;
   flex: 2 2 auto;
   transition: all 0.3s ease 0s;

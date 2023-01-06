@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import logo from '../../../public/logo.svg'
 import {Wrapper,Nav,Logo,RouteWrapper,Route,RouteList,BurgerMenuWrapper,BurgerMenu,Close,Auth,SignUpBtn} from './styled'
 import Container from "../../../styled-components/Container";
+import Link from "next/link";
 
 
 export const Header = () => {
@@ -10,7 +11,7 @@ export const Header = () => {
         <Wrapper>
             <Container>
                 <Nav>
-                    <Logo src={logo} alt='logo' width={120} height={60}></Logo>
+                    <Link href={"/"}><Logo src={logo} alt='logo' width={120} height={60}></Logo></Link>
                     <RouteWrapper  style={isMenuOpen ? {transform:'translate(0)'} : {}}>
                         <Close onClick={() => setIsMenuOpen(false)}/>
                         <RouteList>
